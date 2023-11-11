@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background-color: whitesmoke;
+}
+.mainCont{
+    width: 100vw;
+    height: auto;
+    margin: 0;
+}
+nav{
+     background-color: #658e9a; 
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+}
+.mylogo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .mylogo img{
+    padding-right: 60px;
+}
+.mylogo h2{
+    font-weight: bold;
+    font-size: 35px;
+}
+nav .mynavigation ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav .mynavigation ul li{
+    list-style-type: none;
+    padding-right: 60px;
+    font-size: 25px;
+}
+.mainContent{
+    height: auto;
+}
+.mainContent .home{
+    background-image: url(../../images/hens.jpg);
+    height: 400px;
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContent .home .homeText{
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.mainContent .about{
+    background-color:  #658e9a;
+    color: white;
+    max-width: 70vw;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.mainContent .history{
+    background-color: #658e9a;
+    color: white;
+    max-width: 70vw;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.main{
+    height: 80vh;
+}
+.main .table{
+    border: 1px solid;
+    width: 70vw;
+    margin: 30px;
+}
+footer{
+    background-color: #658e9a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: 15px;
+    border: 2px solid;
+    /* position: relative;
+    bottom: 0; */
+}
+
+

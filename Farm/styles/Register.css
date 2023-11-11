@@ -1,0 +1,114 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #658e9a;
+    background-image: url(../../images/hens.jpg);
+    height: 400px;
+    width: auto;
+    font-size: medium;
+    padding: auto;
+    padding-top: 10px;
+    margin: 5vw;
+    
+  }
+
+  .container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 5px ;
+    border: 1px solid groove;
+    border-radius: 4px;
+  }
+
+  .card {
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+  
+  /* Style the button */
+  .btn {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    font-size: 1rem;
+    border-radius: 4px;
+  }
+  
+  /* Style the link in the "Don't have an account?" paragraph */
+  a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1px;
+  }
+  
+  /* Add some margin and padding for spacing */
+  .m-4 {
+   margin: 2rem !important;
+  }
+  
+  .mb-0 {
+    margin-bottom: 1 !important;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
